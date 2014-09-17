@@ -1,0 +1,43 @@
+ Matrix Multiplication in SQL
+
+
+
+
+
+
+
+
+SQL assignment
+====================
+
+Matrix multiplication
+---------------------
+
+SQL can be good (efficient) at multiplying **sparse** matrices, since most values are non-existent and don't need to be computed.
+
+*Express A X B as a SQL query, referring to the class lecture for hints.*
+
+Basic Relational Algebra
+-------------------------
++ Write a query that is equivalent to the following relational algebra expression.
+
++ Write a SQL statement that is equivalent to the following relational algebra expression.
+
++ Write a SQL statement that is equivalent to the following relational algebra expression. (Hint: you can use the UNION keyword in SQL)
+
++ Write a SQL statement to count the number of documents containing the word "parliament"
+
++ Write a SQL statement to find all documents that have more than 300 total terms, including duplicate terms. (Hint: You can use the HAVING clause, or you can use a nested query. Another hint: Remember that the count column contains the term frequencies, and you want to consider duplicates.) (docid, term_count)
+
++ Write a SQL statement to count the number of unique documents that contain both the word 'transactions' and the word 'world'.
+
+
+Working with a Term-Document Matrix
+------------------------------------
+
+### Similarity matrix
+Write a query to compute the similarity matrix DDT
+
+### Keyword search:
+Find the best matching document to the keyword query "washington taxes treasury". 
+
